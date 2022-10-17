@@ -1,0 +1,28 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['index.html'],
+  theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '8px',
+        'md' :'2rem',
+      },
+    },
+
+    extend: {
+      fontFamily: {
+          'poppins': ['Poppins'],
+       },
+      colors: {
+        'primary': '#14b8a6',
+        'dark' : '#0f172a',
+        'secondary' : '#64748b',
+      },
+      screens: {
+        '2xl' : '1320px',
+      },
+    },
+  },
+  plugins: [],
+}
